@@ -43,6 +43,7 @@ int fget_word(FILE *fp, char* word)
 
 int main(int argc, char *argv[]) {
 	
+<<<<<<< HEAD
 	FILE* fp;
 	char filename[100];
 	char word;
@@ -65,6 +66,11 @@ int main(int argc, char *argv[]) {
 	printf_word();
 	
 	fclose(fp);
+=======
+	printf("ID : %d\n", s1.ID);
+	printf("name : %s\n", s1.name);
+	printf("grade : %f\n", s1.grade);	
+>>>>>>> c08b218e378f77cd11efeda578059c2cfd0b9133
 	
 	return 0;
 }
