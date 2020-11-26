@@ -15,8 +15,8 @@ int main(int argc, char *argv[]) {
 	s1.grade = 2.0;
 	
 	printf("ID : %d\n", s1.ID);
-	printf("name : %s\n", s1.ID);
-	printf("grade : %f\n", s1.ID);	
+	printf("name : %s\n", s1.name);
+	printf("grade : %f\n", s1.grade);	
 	
 	return 0;
 }
